@@ -1,0 +1,131 @@
+.hit-info {
+  box-shadow: 5px 5px 5px #e6ecee;
+  position: absolute;
+  top: -25px;
+  right: -370px;
+  width: 350px;
+  height: 400px;
+  background-color: rgba(252, 251, 251);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+}
+.hit-info:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+.hidden {
+  transition: all 0.7s ease-in;
+  transform: translateX(800px);
+}
+.hit-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  height: 7rem;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, #4279a3, #1496c1, #6ec8d4);
+}
+
+.hit-block-profil2 {
+  position: relative;
+  top: 30px;
+  display: flex;
+  padding-left: 7px;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: max-content;
+  background-color: white;
+  border: 0.5px solid rgb(233, 233, 233);
+}
+.hit-card-name {
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: white;
+  width: 90%;
+  display: flex;
+  height: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+.hit-info-section {
+  width: 95%;
+  height: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hit-info-work {
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  margin-left: 1rem;
+  color: #8d8d90;
+  font-weight: 400;
+  font-size: 16px;
+}
+.hit-info-work p:first-of-type {
+  margin: 0 auto;
+  padding-left: 5px;
+  width: 50%;
+  height: 4rem;
+}
+.hit-info-contact {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 3rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.hit-info-contact small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hit-info-followers {
+  border-top: 1px solid #dbdbde;
+  position: absolute;
+  bottom: 3rem;
+  height: 4.4rem;
+  width: 100%;
+  background-color: #f0f0f2;
+  display: flex;
+}
+.hit-info-followers div {
+  color: #8d8d90;
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.hit-info-followers div p:first-of-type {
+  color: #767679;
+}
+.hit-info-followers div:first-of-type {
+  border-right: 1px solid #dbdbde;
+}
+.hit-info-follow {
+  position: absolute;
+  height: 3rem;
+  width: 100%;
+  background-color: #6ed4b9;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hit-info-follow p {
+  color: white;
+  letter-spacing: 1px;
+}

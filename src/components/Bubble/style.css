@@ -1,0 +1,10 @@
+.bubble {
+  color: white;
+  padding: 2px 3px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(68, 198, 191);
+  position: absolute;
+  left: 1.4rem;
+  bottom: 2rem;
+}

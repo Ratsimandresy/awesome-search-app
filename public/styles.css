@@ -1,0 +1,28 @@
+html {
+  overflow-y: scroll;
+  background: #fff;
+  transition: all 0.3s ease-in;
+}
+main {
+  min-height: 360px;
+}
+#left-column {
+  float: left;
+  width: 23%;
+  margin-top: 18px;
+}
+#right-column {
+  width: 74%;
+  margin-left: 26%;
+}
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ais-InstantSearch {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+}

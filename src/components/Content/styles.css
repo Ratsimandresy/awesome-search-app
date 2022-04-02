@@ -1,0 +1,36 @@
+.content {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  /* background-color: rgb(244, 247, 247); */
+}
+.hero {
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-image: linear-gradient(to right bottom, #4279a3, #1496c1, #6ec8d4);
+}
+.hero-title {
+  height: inherit;
+  width: inherit;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+}
+.hero-title p {
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+.ais-Hits {
+  width: 100%;
+  min-height: 700px;
+  height: 100%;
+}
+.ais-Hits-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

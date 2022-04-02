@@ -1,0 +1,47 @@
+.ais-Hits-item {
+  margin: 1rem 0;
+  width: inherit;
+}
+
+.hit-card {
+  position: relative;
+  width: 60%;
+  height: 5rem;
+  border-bottom: 1px solid rgb(209, 206, 206);
+  background: rgb(255, 255, 255);
+  padding: 0 2rem 2rem;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease-out;
+}
+
+.hit-profile {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+.hit-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+.hit-name p:first-of-type {
+  margin-left: 1rem;
+  color: #4279a3;
+  font-weight: 400;
+}
+.hit-name p:nth-child(2) {
+  margin-left: 1rem;
+  color: #8d8d90;
+  font-weight: 400;
+  font-size: 12px;
+}
+.followers {
+  position: relative;
+}
+.followers small {
+  color: #4279a3;
+}
